@@ -28,6 +28,7 @@ module.exports = {
           { name: `Projects`, slug: `/projects` },
           { name: `About`, slug: `/about` }
         ],
+        homepageProjectLimit: 999
       },
     },
     {

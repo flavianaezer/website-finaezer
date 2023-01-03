@@ -1,6 +1,6 @@
-const modifyGrid = (data) => data
+// const modifyGrid = (data) => data
 
-export default modifyGrid
+// export default modifyGrid
 
 
 // variant 2
@@ -9,13 +9,12 @@ export default modifyGrid
 //     onlyProjects,
 //   } from "@lekoarts/gatsby-theme-jodie/src/utils/resolver-templates";
   
-//   const modifyGrid = (data) => onlyPages(data);
 //   const modifyGrid = (data) => onlyProjects(data)
 
 //   export default modifyGrid;
 
-//   // variant 3
-// import { filterBySlug } from "@lekoarts/gatsby-theme-jodie/src/utils/resolver-templates";
-// const modifyGrid = (data) => filterBySlug(data, ["/about"]);
+import { shuffle } from "@lekoarts/gatsby-theme-jodie/src/utils/resolver-templates";
 
-// export default modifyGrid;
+const modifyGrid = (data) => shuffle(data);
+
+export default modifyGrid;
