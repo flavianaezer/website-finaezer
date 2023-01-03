@@ -4,17 +4,16 @@
 
 
 // variant 2
-// import {
-//     onlyPages,
-//     onlyProjects,
-//   } from "@lekoarts/gatsby-theme-jodie/src/utils/resolver-templates";
+import {
+    onlyProjects,
+  } from "@lekoarts/gatsby-theme-jodie/src/utils/resolver-templates";
   
-//   const modifyGrid = (data) => onlyProjects(data)
+  const modifyGrid = (data) => onlyProjects(data)
 
-//   export default modifyGrid;
+  export default modifyGrid;
 
-import { shuffle } from "@lekoarts/gatsby-theme-jodie/src/utils/resolver-templates";
+// import { shuffle } from "@lekoarts/gatsby-theme-jodie/src/utils/resolver-templates";
 
-const modifyGrid = (data) => shuffle(data);
+// const modifyGrid = (data) => shuffle(data);
 
-export default modifyGrid;
+// export default modifyGrid;
