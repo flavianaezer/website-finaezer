@@ -28,6 +28,7 @@ module.exports = {
       options: {
         navigation: [
           { name: `Projects`, slug: `/projects` },
+          { name: `For Sale`, slug: `/sale` },
           { name: `About`, slug: `/about` }
         ],
         homepageProjectLimit: 999

@@ -32,6 +32,8 @@ const Homepage: React.FC<PageProps<JodieHomepageProps>> = ({ data: { projects } 
   // homepage projects to show
   const homepageTitles = [  
                             'Zappy Fish', 
+                            'Amaryllis in a pot',
+                            'Morning Glory',
                             'Cosmos',
                             'Flavia & Cavias', 
                             'Dahlias in a Blue Pot', 
