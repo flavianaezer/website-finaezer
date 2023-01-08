@@ -1,16 +1,16 @@
-// const modifyGrid = (data) => data
+const modifyGrid = (data) => data
 
-// export default modifyGrid
+export default modifyGrid
 
 
 // variant 2
-import {
-    onlyProjects,
-  } from "@lekoarts/gatsby-theme-jodie/src/utils/resolver-templates";
+// import {
+//     onlyProjects,
+//   } from "@lekoarts/gatsby-theme-jodie/src/utils/resolver-templates";
   
-  const modifyGrid = (data) => onlyProjects(data)
+//   const modifyGrid = (data) => onlyProjects(data)
 
-  export default modifyGrid;
+//   export default modifyGrid;
 
 // import { shuffle } from "@lekoarts/gatsby-theme-jodie/src/utils/resolver-templates";
 

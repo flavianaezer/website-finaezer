@@ -25,10 +25,22 @@ export type JodieHomepageProps = {
       __typename: "MdxProject"
     }[]
   }
+  pages: {
+    nodes: {
+      slug: string
+      title: string
+      cover: {
+        childImageSharp: {
+          gatsbyImageData: IGatsbyImageData
+        }
+      }
+      __typename: "MdxPage"
+    }[]
+  }
 }
 
-const Homepage: React.FC<PageProps<JodieHomepageProps>> = ({ data: { projects } }) => {
-  const rawItems = [...projects.nodes]
+const Homepage: React.FC<PageProps<JodieHomepageProps>> = ({ data: { pages, projects } }) => {
+  const rawItems = [...projects.nodes, ...pages.nodes]
   // homepage projects to show
   const homepageTitles = [  
                             'Zappy Fish', 
@@ -45,7 +57,8 @@ const Homepage: React.FC<PageProps<JodieHomepageProps>> = ({ data: { projects } 
                             'Swan',
                             'Four Guinea Pigs in Basket'
                         ]
-  const homepageItems = rawItems.filter(r => homepageTitles.includes(r.title))
+  const aboutPage = rawItems.filter(r => r.title === "About")
+  const homepageItems = rawItems.filter(r => homepageTitles.includes(r.title)).concat(aboutPage)
   const items = modifyGrid(homepageItems)
   const itemsCount = items.length
   let divisor = 9
