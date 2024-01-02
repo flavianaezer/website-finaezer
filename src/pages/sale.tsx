@@ -43,6 +43,7 @@ const SaleProjects: React.FC<PageProps<SaleProps>> = ({ data: { projects } }) =>
                           'Kingfisher',
                           'Koi',
                           'Little Krishna',
+                          'Lotus 1',
                           'Beautiful Lake during Spring',
                           'Madelief with Sticks',
                           'Fish in water',
@@ -50,6 +51,7 @@ const SaleProjects: React.FC<PageProps<SaleProps>> = ({ data: { projects } }) =>
                           'Pigeon',
                           'Poppies red & orange',
                           'Red and white tulips in a vase',
+                          'Retro Cat and Fish',
                           'Water turtle',
                           'Willow tree during Winter',
                           'Great Spotted Woodpecker',
@@ -57,6 +59,7 @@ const SaleProjects: React.FC<PageProps<SaleProps>> = ({ data: { projects } }) =>
                           'Squirrel',
                           'Scottish Highlander',
                           'Ringnecked Parrot',
+                          'White Dahlias in vase',
                           'Zappy Fish'
                       ]
   const soldProjects = projects.nodes.filter(n => soldTitles.includes(n.shortTitle))
