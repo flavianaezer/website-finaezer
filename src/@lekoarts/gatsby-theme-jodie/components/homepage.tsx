@@ -44,22 +44,24 @@ const Homepage: React.FC<PageProps<JodieHomepageProps>> = ({ data: { pages, proj
   // homepage projects to show
   const homepageTitles = [  
                             'Zappy Fish', 
-                            'Amaryllis in a pot',
+                            'ESP8266 Programmers',           
+                            'Lotus',
                             'Morning Glory',
                             'Cosmos',
-                            'Flavia & Cavias', 
+                            'Rose Garden',
                             'Dahlias in a Blue Pot', 
-                            'ESP8266 Programmers', 
                             'Campsis, Ant & Butterfly',
                             'Great Spotted Woodpecker',
                             'Piglet',
-                            'Blue Nude 3',
+                            'Four Guinea Pigs in Basket',
                             'Swan',
-                            'Four Guinea Pigs in Basket'
+                            'Blue Nude 3',
+                            'Amaryllis in a pot',
+                            'About'
                         ]
-  const aboutPage = rawItems.filter(r => r.title === "About")
-  const homepageItems = rawItems.filter(r => homepageTitles.includes(r.title)).concat(aboutPage)
-  const items = modifyGrid(homepageItems)
+  const homepageItems = rawItems.filter(r => homepageTitles.includes(r.title))
+  const sortOnIndex = homepageItems.sort((a, b) => homepageTitles.indexOf(a.title) - homepageTitles.indexOf(b.title))
+  const items = modifyGrid(sortOnIndex)
   const itemsCount = items.length
   let divisor = 9
 
