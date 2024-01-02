@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "website-finaezer",
+  "name": "website-fi-naezer",
   "description": "Fi's Art Gallery",
   "version": "1.0",
   "author": "Fi Naezer",
@@ -16,7 +16,7 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
-  },
+  }, 
   "dependencies": {
     "@lekoarts/gatsby-theme-jodie": "^5.0.0",
     "gatsby": "^5.2.0",
