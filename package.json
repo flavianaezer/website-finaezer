@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "flavias-website",
-  "description": "Flavias Art Portfolio",
+  "name": "website-finaezer",
+  "description": "Fi's Art Gallery",
   "version": "1.0",
-  "author": "Flavia Naezer-Sequeira",
+  "author": "Fi Naezer",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-jodie",
   "scripts": {
@@ -21,7 +21,6 @@
     "@lekoarts/gatsby-theme-jodie": "^5.0.0",
     "gatsby": "^5.2.0",
     "gatsby-plugin-manifest": "^5.2.0",
-    "gatsby-plugin-s3": "^0.3.8",
     "gatsby-plugin-sitemap": "^6.2.0",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.30",
     "react": "^18.2.0",

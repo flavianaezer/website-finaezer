@@ -2,8 +2,6 @@ require(`dotenv`).config()
 
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
-const siteAddress = new URL("http://flavias.nl");
-
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
@@ -73,14 +71,6 @@ module.exports = {
         reportFilename: `_bundle.html`,
         openAnalyzer: false,
       },
-    },
-    {
-      resolve: `gatsby-plugin-s3`,
-      options: {
-          bucketName: 'flavias.nl',
-          protocol: siteAddress.protocol.slice(0, -1),
-          hostname: siteAddress.hostname,
-      }
     }
   ].filter(Boolean),
 }
