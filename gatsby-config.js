@@ -12,11 +12,11 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
-    siteTitle: `Flavia's Art Portfolio`,
-    siteTitleAlt: `Flavia's Art Portfolio`,
-    siteHeadline: `Flavia's Art Portfolio`,
+    siteTitle: `Fi's Art Gallery`,
+    siteTitleAlt: `Fi's Art Gallery`,
+    siteHeadline: `Fi's Art Gallery`,
     siteUrl: `http://flavias.nl`,
-    siteDescription: `Flavia's art portfolio, a collection of her art works.`,
+    siteDescription: `Fi's Art Gallery, a collection of her art works.`,
     siteImage: `/banner.jpg`,
     author: `@flaviasomething`,
   },
