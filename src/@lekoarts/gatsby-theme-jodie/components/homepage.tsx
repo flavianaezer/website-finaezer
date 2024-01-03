@@ -44,19 +44,19 @@ const Homepage: React.FC<PageProps<JodieHomepageProps>> = ({ data: { pages, proj
   // homepage projects to show
   const homepageTitles = [  
                             'Zappy Fish', 
-                            'ESP8266 Programmers',           
-                            'Lotus',
-                            'Morning Glory',
+                            'Lotus 1',
+                            'Retro Cat and Fish',
+                            'Giant Sunflowers 1',
                             'Cosmos',
                             'Rose Garden',
                             'Dahlias in a Blue Pot', 
                             'Campsis, Ant & Butterfly',
-                            'Great Spotted Woodpecker',
                             'Piglet',
+                            'Great Spotted Woodpecker',
                             'Four Guinea Pigs in Basket',
                             'Swan',
-                            'Blue Nude 3',
                             'Amaryllis in a pot',
+                            'Blue Nude 3',
                             'About'
                         ]
   const homepageItems = rawItems.filter(r => homepageTitles.includes(r.title))
