@@ -13,7 +13,7 @@ module.exports = {
     siteTitle: `Fi's Art Gallery`,
     siteTitleAlt: `Fi's Art Gallery`,
     siteHeadline: `Fi's Art Gallery`,
-    siteUrl: `http://flavias.nl`,
+    siteUrl: `https://finaezer.nl`,
     siteDescription: `Fi's Art Gallery, a collection of her art works.`,
     siteImage: `/banner.jpg`,
     author: `@flaviasomething`,
