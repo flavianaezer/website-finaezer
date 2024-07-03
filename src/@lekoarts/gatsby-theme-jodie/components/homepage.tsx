@@ -43,21 +43,21 @@ const Homepage: React.FC<PageProps<JodieHomepageProps>> = ({ data: { pages, proj
   const rawItems = [...projects.nodes, ...pages.nodes]
   // homepage projects to show
   const homepageTitles = [  
-                            'Zappy Fish', 
+                            'Vis blauw / Zappy Fish', 
                             'Lotus 1',
-                            'Retro Cat and Fish',
-                            'Giant Sunflowers 1',
-                            'Cosmos',
-                            'Rose Garden',
-                            'Dahlias in a Blue Pot', 
-                            'Campsis, Ant & Butterfly',
-                            'Piglet',
-                            'Great Spotted Woodpecker',
-                            'Four Guinea Pigs in Basket',
-                            'Swan',
-                            'Amaryllis in a pot',
-                            'Blue Nude 3',
-                            'About'
+                            'Kat en vis / Retro Cat and Fish',
+                            'Grote zonnebloemen in tuin / Giant Sunflowers 1',
+                            'Cosmea / Cosmos',
+                            'Klimroos 1 / Rose Garden 1',
+                            'Dahlias in vaas / Dahlias in a Blue Vase', 
+                            'Campsis met vlinder / Campsis, Ant & Butterfly',
+                            'Varkentje / Piglet',
+                            'Bonte specht / Great Spotted Woodpecker',
+                            'Cavias in een mandje / Four Guinea Pigs in Basket',
+                            'Zwaan / Swan',
+                            'Amaryllis in een pot / Amaryllis in a pot',
+                            'Vrouw Blauw 3 / Blue Nude 3',
+                            'Wie ben ik / About'
                         ]
   const homepageItems = rawItems.filter(r => homepageTitles.includes(r.title))
   const sortOnIndex = homepageItems.sort((a, b) => homepageTitles.indexOf(a.title) - homepageTitles.indexOf(b.title))
