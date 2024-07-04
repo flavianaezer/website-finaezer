@@ -10,11 +10,11 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
-    siteTitle: `Fi's Art Gallery`,
-    siteTitleAlt: `Fi's Art Gallery`,
-    siteHeadline: `Fi's Art Gallery`,
+    siteTitle: `Fi Naezer Kunst`,
+    siteTitleAlt: `Fi Naezer Kunst`,
+    siteHeadline: `Fi Naezer Kunst`,
     siteUrl: `https://finaezer.nl`,
-    siteDescription: `Fi's Art Gallery, a collection of her art works.`,
+    siteDescription: `Fi Naezer Kunst, website voor kunstwerken`,
     siteImage: `/banner.jpg`,
     author: `@flaviasomething`,
   },
@@ -25,9 +25,10 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
-          { name: `For Sale`, slug: `/sale` },
-          { name: `About`, slug: `/about` }
+          { name: `Projecten`, slug: `/projects` },
+          { name: `Te Koop`, slug: `/sale` },
+          { name: `Opdrachten`, slug: `/commissions` },
+          { name: `Wie ben ik`, slug: `/about` }
         ],
         homepageProjectLimit: 999
       },
