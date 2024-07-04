@@ -44,7 +44,7 @@ const Homepage: React.FC<PageProps<JodieHomepageProps>> = ({ data: { pages, proj
   // homepage projects to show
   const homepageTitles = [  
                             'Vis blauw',
-                            'Kat en vis',                             
+                            'Zonnebloem en vlinders 2',                             
                             'Lotus 1',
                             'Grote zonnebloemen in tuin',
                             'Cosmea',
