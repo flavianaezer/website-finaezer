@@ -28,7 +28,8 @@ type CommissionsProps = {
 const CommissionedProjects: React.FC<PageProps<CommissionsProps>> = ({ data: { projects } }) => {
   // list of artwork that is sold
   const commissionedTitles = [  
-                          'Ijsvogel'
+                          'Ijsvogel',
+                          'Zonnebloem en vlinders 2'
                       ]
   const commissionedProjects = projects.nodes.filter(n => commissionedTitles.includes(n.shortTitle))
   // make a Set to hold values from commissionedProjects
