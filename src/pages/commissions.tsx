@@ -34,7 +34,7 @@ const CommissionedProjects: React.FC<PageProps<CommissionsProps>> = ({ data: { p
   // make a Set to hold values from commissionedProjects
   const commissionedProjectsSet = new Set(commissionedProjects);
   const cProjects = projects.nodes.filter((name) => {
-    return !commissionedProjectsSet.has(name);
+    return commissionedProjectsSet.has(name);
   });
 
   return (
