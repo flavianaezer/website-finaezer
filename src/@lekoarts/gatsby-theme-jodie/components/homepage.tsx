@@ -43,21 +43,21 @@ const Homepage: React.FC<PageProps<JodieHomepageProps>> = ({ data: { pages, proj
   const rawItems = [...projects.nodes, ...pages.nodes]
   // homepage projects to show
   const homepageTitles = [  
-                            'Vis blauw / Zappy Fish', 
+                            'Vis blauw',
+                            'Kat en vis',                             
                             'Lotus 1',
-                            'Kat en vis / Retro Cat and Fish',
-                            'Grote zonnebloemen in tuin / Giant Sunflowers 1',
-                            'Cosmea / Cosmos',
-                            'Klimroos 1 / Rose Garden 1',
-                            'Dahlias in vaas / Dahlias in a Blue Vase', 
-                            'Campsis met vlinder / Campsis, Ant & Butterfly',
-                            'Varkentje / Piglet',
-                            'Bonte specht / Great Spotted Woodpecker',
-                            'Cavias in een mandje / Four Guinea Pigs in Basket',
-                            'Zwaan / Swan',
-                            'Amaryllis in een pot / Amaryllis in a pot',
-                            'Vrouw Blauw 3 / Blue Nude 3',
-                            'Wie ben ik / About'
+                            'Grote zonnebloemen in tuin',
+                            'Cosmea',
+                            'Klimroos 1',
+                            'Dahlias in vaas', 
+                            'Campsis met vlinder',
+                            'Bonte specht',
+                            'Varkentje',
+                            'Cavias in een mandje',
+                            'Zwaan',
+                            'Amaryllis in een pot',
+                            'Vrouw Blauw 3',
+                            'Wie ben ik'
                         ]
   const homepageItems = rawItems.filter(r => homepageTitles.includes(r.title))
   const sortOnIndex = homepageItems.sort((a, b) => homepageTitles.indexOf(a.title) - homepageTitles.indexOf(b.title))
