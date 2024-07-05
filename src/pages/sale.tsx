@@ -60,7 +60,8 @@ const SaleProjects: React.FC<PageProps<SaleProps>> = ({ data: { projects } }) =>
                           'Halsbandpapegaai',
                           'Witte dahlias in vaas',
                           'Vis blauw',
-                          'Zonnebloem en vlinders 2'
+                          'Zonnebloem en vlinders 2',
+                          'Siererwt 1'
                       ]
   const soldProjects = projects.nodes.filter(n => soldTitles.includes(n.shortTitle))
   // make a Set to hold values from soldProjects
