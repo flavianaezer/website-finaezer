@@ -46,15 +46,16 @@ const Homepage: React.FC<PageProps<JodieHomepageProps>> = ({ data: { pages, proj
                             'Vis blauw',
                             'Engelse roos',
                             'Klimroos 2',
+                            'Siererwt 1',
                             'Lotus 1',
                             'Zonnebloem en vlinders 2',                             
                             'Grote zonnebloemen in tuin',
                             'Klimroos 1',
                             'Bonte specht',
                             'Varkentje',
-                            'Cavias in een mandje',
-                            'Zwaan',
                             'Vrouw Blauw 3',
+                            'Zwaan',
+                            'Cavias in een mandje',
                             'Wie ben ik'
                         ]
   const homepageItems = rawItems.filter(r => homepageTitles.includes(r.title))
