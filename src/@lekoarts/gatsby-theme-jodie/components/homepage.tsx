@@ -56,7 +56,7 @@ const Homepage: React.FC<PageProps<JodieHomepageProps>> = ({ data: { pages, proj
                             'Vrouw Blauw 3',
                             'Zwaan',
                             'Cavias in een mandje',
-                            'Wie ben ik'
+                            'Wie ben ik / About'
                         ]
   const homepageItems = rawItems.filter(r => homepageTitles.includes(r.title))
   const sortOnIndex = homepageItems.sort((a, b) => homepageTitles.indexOf(a.title) - homepageTitles.indexOf(b.title))
